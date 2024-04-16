@@ -1,4 +1,4 @@
-# ardEEG
+# ardEEG (In progress, just I need a little time )
 Shield ardEEG for Arduino UNO R4 for measure EEG, EMG, and ECG bio-signals
 
 # ardEEG shield for Arduino UNO R4 to measure EEG, EMG, and ECG bio-signals.      
