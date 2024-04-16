@@ -1,5 +1,5 @@
-# EEGduino
-Arduino for measure EEG, EMG, and ECG bio-signals
+# ardEEG
+Shield ardEEG for Arduino UNO R4 for measure EEG, EMG, and ECG bio-signals
 
 # Arduino to measure EEG, EMG, and ECG bio-signals.      
 
