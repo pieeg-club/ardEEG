@@ -29,6 +29,9 @@ Full galvanic isolation from mains required.
 Electrodes positioned according to the International 10-20 system, right.    
 ![alt tag]([https://github.com/Ildaron/EEGwithRaspberryPI/blob/master/Supplementary%20files/fig.7.bmp "general view](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png)")​
 
+![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png "general view")​
+![alt tag](https://github.com/Ildaron/EEGwithRaspberryPI/blob/master/Supplementary%20files/fig.7.bmp "general view")
+
 #### Device Pinout  
 Shield connected with Arduino Uno R4 only at the next points:     
  
