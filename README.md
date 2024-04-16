@@ -29,7 +29,7 @@ Full galvanic isolation from mains required.
 Electrodes positioned according to the International 10-20 system, right.    ​
 ![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png "general view")​
 
-![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/IMG_8452%20(1).jpg "generals view")
+![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png "generals view")
 
 
 
