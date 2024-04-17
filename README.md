@@ -1,4 +1,5 @@
-# ardEEG (In progress, just I need a little time )
+# ardEEG (In progress, just I need a little time ) 
+# who want to contribute to open-source software, please let me know, do it together  
 Shield ardEEG for Arduino UNO R4 for measure EEG, EMG, and ECG bio-signals
 
 # ardEEG shield for Arduino UNO R4 to measure EEG, EMG, and ECG bio-signals.      
