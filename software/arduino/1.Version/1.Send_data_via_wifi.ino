@@ -1,7 +1,7 @@
 #include "WiFiS3.h"
 
-char ssid[] = "BT-P7CPQC";
-char pass[] = "CRQuTXGfkf4g3a";
+char ssid[] = "";
+char pass[] = "";
 int status = WL_IDLE_STATUS;
 WiFiServer server(80);
 
