@@ -43,7 +43,7 @@ Arduino script does not allow reading data from ADS1299 with a frequency of 250 
 
 
 #### Video presentation
-![alt tag]([https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png) "YouTube")
+![alt tag]([(https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png "YouTube")
 
 
 #### For Beginners
