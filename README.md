@@ -41,9 +41,6 @@ Arduino script does not allow reading data from ADS1299 with a frequency of 250 
 
 #### Video presentation
 In this [video](https://youtu.be/s_5mDDUFp6E) you can see how to measure EEG  
-![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png "generals view")
-
-
 
 [![Hardware demonstrations](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png)](https://youtu.be/s_5mDDUFp6E))   
 
