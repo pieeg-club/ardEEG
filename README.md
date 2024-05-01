@@ -25,6 +25,12 @@ Connect the shield to Arduino Uno R4 WiFi and after that connect the device to a
 Full galvanic isolation from mains is required.  
 Electrodes are positioned according to the International 10-20 system    ​
 
+<div style="display: flex; justify-content: center;">
+    ![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png "generals view"){:height="300px" width="400px"}
+</div>
+
+
+
 
 <center>
   <img src="https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png" width="50%" height="50%" alt="generals view">
