@@ -24,7 +24,6 @@ We will try to reveal the process of reading EEG signals as fully and clearly as
 
 
 #### How it Works   
-
 Connect the shield to Arduino Uno R4 WiFi and after that connect the device to a battery (power supply) and connect electrodes.
 Full galvanic isolation from mains required.  
 Electrodes positioned according to the International 10-20 system, right.    ​
@@ -43,7 +42,11 @@ Arduino script does not allow reading data from ADS1299 with a frequency of 250 
 
 
 #### Video presentation
+In this [video](https://youtu.be/s_5mDDUFp6E) you can see how to measure EEG  
 ![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png "generals view")
+
+[![Hardware demonstrations](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png)]([https://youtu.be/VwZunUqHbiU](https://youtu.be/s_5mDDUFp6E))   
+
 
 #### For Beginners
 During the measurement, in addition to artifacts caused by muscle activity, be concerned about the increased resistance between the body and the floor. For example, in the picture below, the moment when the feet touch the floor with and without an insulated shoe. Without insulated shoes - increased noise is noticeable.
