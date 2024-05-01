@@ -1,7 +1,4 @@
 # ardEEG 
-who want to contribute to open-source software, please let me know, do it together  
-Shield ardEEG for Arduino UNO R4 to measure EEG, EMG, and ECG bio-signals
-
 # ardEEG shield for Arduino UNO R4 to measure EEG, EMG, and ECG bio-signals.      
 
 ## To Buy - soon EEGduino will be available in the market at our partner shop [Elecrow](https://www.elecrow.com/pieeg.html)
