@@ -1,6 +1,6 @@
-# ardEEG (In progress, just I need a little time ) 
+# ardEEG 
 who want to contribute to open-source software, please let me know, do it together  
-Shield ardEEG for Arduino UNO R4 for measure EEG, EMG, and ECG bio-signals
+Shield ardEEG for Arduino UNO R4 to measure EEG, EMG, and ECG bio-signals
 
 # ardEEG shield for Arduino UNO R4 to measure EEG, EMG, and ECG bio-signals.      
 
@@ -25,8 +25,8 @@ We will try to reveal the process of reading EEG signals as fully and clearly as
 
 #### How it Works   
 Connect the shield to Arduino Uno R4 WiFi and after that connect the device to a battery (power supply) and connect electrodes.
-Full galvanic isolation from mains required.  
-Electrodes positioned according to the International 10-20 system, right.    ​
+Full galvanic isolation from mains is required.  
+Electrodes are positioned according to the International 10-20 system    ​
 ![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png "general view")​
 
 ![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png "generals view")
