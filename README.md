@@ -30,7 +30,7 @@ Electrodes positioned according to the International 10-20 system, right.    ​
 ![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png "general view")​
 
 ![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png "generals view")
-
+[![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/coac1.bmp)](https://youtu.be/VwZunUqHbiU)   
 
 
 
