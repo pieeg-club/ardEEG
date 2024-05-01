@@ -45,7 +45,7 @@ In this [video](https://youtu.be/s_5mDDUFp6E) you can see how to measure EEG
 
 
 
-[![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/coac1.bmp)](https://youtu.be/VwZunUqHbiU))   
+[![Hardware demonstrations](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png)](https://youtu.be/s_5mDDUFp6E))   
 
 #### For Beginners
 During the measurement, in addition to artifacts caused by muscle activity, be concerned about the increased resistance between the body and the floor. For example, in the picture below, the moment when the feet touch the floor with and without an insulated shoe. Without insulated shoes - increased noise is noticeable.
