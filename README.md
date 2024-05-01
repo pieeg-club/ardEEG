@@ -40,6 +40,11 @@ Electrodes are positioned according to the International 10-20 system    ​
 
 #### Device Pinout  
 Shield connected with Arduino Uno R4 only at the next points:     
+
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/spi.png
+ " width="50%" height="50%" alt="generals view">
+
+
  
 #### Description of Code  
 Arduino script does not allow reading data from ADS1299 with a frequency of 250 Hz. It's necessary to use .c or .cpp scripts for reading data in real-time and Python for signal processing and visualization.   
