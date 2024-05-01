@@ -42,8 +42,8 @@ Shield connected with Arduino Uno R4 only at the next points:
 Arduino script does not allow reading data from ADS1299 with a frequency of 250 Hz. It's necessary to use .c or .cpp scripts for reading data in real-time and Python for signal processing and visualization.   
 
 
-#### Video - Control Robot Toy by Blinking  
-In process 
+#### Video presentation
+![alt tag]([https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png) "YouTube")
 
 
 #### For Beginners
