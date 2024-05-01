@@ -24,10 +24,10 @@ We will try to reveal the process of reading EEG signals as fully and clearly as
 Connect the shield to Arduino Uno R4 WiFi and after that connect the device to a battery (power supply) and connect electrodes.
 Full galvanic isolation from mains is required.  
 Electrodes are positioned according to the International 10-20 system    ​
-![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png "general view")
 
 
-<img src="https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png" width="10%" height="10%" alt="generals view">
+<img src="https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png" width="10%" height="10%" alt="generals view">
+
 
 ![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png "generals view")
 
