@@ -43,8 +43,7 @@ Arduino script does not allow reading data from ADS1299 with a frequency of 250 
 
 
 #### Video presentation
-![alt tag]([(https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png "YouTube")
-
+![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/youtube.png "generals view")
 
 #### For Beginners
 During the measurement, in addition to artifacts caused by muscle activity, be concerned about the increased resistance between the body and the floor. For example, in the picture below, the moment when the feet touch the floor with and without an insulated shoe. Without insulated shoes - increased noise is noticeable.
