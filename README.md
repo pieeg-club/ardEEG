@@ -55,7 +55,7 @@ During the measurement, in addition to artifacts caused by muscle activity, be c
 
 
 <p align="center">
-  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/graph.jpg" width="70%" height="70%" alt="generals view">
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/graph.jpg" width="50%" height="50%" alt="generals view">
 </p>
 
 
