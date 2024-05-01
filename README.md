@@ -30,7 +30,12 @@ Electrodes are positioned according to the International 10-20 system    ​
   <img src="https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png" width="50%" height="50%" alt="generals view">
 </p>
 
-![alt tag](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png "generals view")
+<p align="center">
+  <img src="[https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ard_EEG_general.png](https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/ardeeg.png)" width="80%" height="80%" alt="generals view">
+</p>
+
+
+
 
 
 #### Device Pinout  
