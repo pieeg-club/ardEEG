@@ -40,10 +40,9 @@ Electrodes are positioned according to the International 10-20 system    ​
 
 #### Device Pinout  
 Shield connected with Arduino Uno R4 only at the next points:     
-
-  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/spi.png
- " width="50%" height="50%" alt="generals view">
-
+<p align="center">
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/spi.png" width="50%" height="50%" alt="generals view">
+</p>
 
  
 #### Description of Code  
