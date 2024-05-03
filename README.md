@@ -61,15 +61,18 @@ During the measurement, in addition to artifacts caused by muscle activity, be c
 The process of measuring chewing and blinking artifacts using dry electrodes (Fz). Chewing occurred in the following sequence: 4 times, 3 times, 2, and 1 time, and the same for the blinking process. The y- axis is the processed EEG signal after passing filter bands of 1-40 Hz in microvolts and with 250 samples per
 [Dataset]( https://github.com/Ildaron/ardEEG/tree/main/dataset/artefacts) 
 <p align="center">
-  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/blink.bmp" width="100%" height="100%" alt="generals view">
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/blink.bmp" width="50%" height="50%" alt="generals view">
 </p>
 
+####Alpha test. 
+The process of recording an EEG signal from an electrode (Fz) with eyes open and closed. The y- axis is the processed EEG signal after passing filter bands of 8-12Hz in microvolts and with 250 samples per second
 
+[Dataset](https://github.com/Ildaron/ardEEG/tree/main/dataset/alpha) 
 <p align="center">
-  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/graph.jpg" width="50%" height="50%" alt="generals view">
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/aplha.bmp" width="50%" height="50%" alt="generals view">
 </p>
 
-
+8 channels reading example
 <p align="center">
   <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/graph.jpg" width="50%" height="50%" alt="generals view">
 </p>
