@@ -57,6 +57,18 @@ In this [video](https://youtu.be/s_5mDDUFp6E) you can see how to measure EEG
 #### For Beginners
 During the measurement, in addition to artifacts caused by muscle activity, be concerned about the increased resistance between the body and the floor. For example, in the picture below, the moment when the feet touch the floor with and without an insulated shoe. Without insulated shoes - increased noise is noticeable.
 
+####Artifact test. 
+The process of measuring chewing and blinking artifacts using dry electrodes (Fz). Chewing occurred in the following sequence: 4 times, 3 times, 2, and 1 time, and the same for the blinking process. The y- axis is the processed EEG signal after passing filter bands of 1-40 Hz in microvolts and with 250 samples per
+[Dataset]( https://github.com/Ildaron/ardEEG/tree/main/dataset/artefacts) 
+<p align="center">
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/blink.bmp" width="100%" height="100%" alt="generals view">
+</p>
+
+
+<p align="center">
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/graph.jpg" width="50%" height="50%" alt="generals view">
+</p>
+
 
 <p align="center">
   <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/graph.jpg" width="50%" height="50%" alt="generals view">
