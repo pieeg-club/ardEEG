@@ -14,8 +14,8 @@ We will try to reveal the process of reading EEG signals as fully and clearly as
 >  It is not a medical device!!! And cannot be used for any medical purposes  
 
 >[!CAUTION]
-> The device must operate only from a battery - 5 V. Complete isolation from the mains power is required.! The device MUST not be connected to any kind of mains power, via USB or otherwise.   
-> Power supply - only battery 5V, please read the datasheet!!!!!
+> The device must operate only from a battery - 5 V. Complete isolation from the mains power is required.! The device MUST not be connected to any kind of mains power, via USB or otherwise.     
+> Power supply - only battery 5V, please read the datasheet!
 >
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DIY%20Brain-Computer%20Interface%20PIEEG%20&url=https://github.com/Ildaron/EEGwithRaspberryPI&hashtags=RaspberryPI,EEG,python,opensource)
