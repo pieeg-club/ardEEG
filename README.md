@@ -4,7 +4,6 @@
 ## To Buy - soon ardEEG will be available in the market at our partner shop [Elecrow](https://www.elecrow.com/pieeg.html)
 [LinkedIn for updates](https://www.linkedin.com/company/96475004/admin/feed/posts/) 
 
-#### It is not a medical device!!! And cannot be used for any medical purposes!!!
 
 This project is the result of several years of work on the development of BCI. We believe that the easiest way to get started with biosignals is to use a shield.
 We will try to reveal the process of reading EEG signals as fully and clearly as possible. 
@@ -12,7 +11,7 @@ We will try to reveal the process of reading EEG signals as fully and clearly as
 #### Warnings
 >[!WARNING]
 > You are fully responsible for your personal decision to purchase this device and, ultimately, for its safe use. ardEEG is not a medical device and has not been certified by any government regulatory agency for use with the human body. Use it at your own risk.  
-
+>  It is not a medical device!!! And cannot be used for any medical purposes
 >[!CAUTION]
 > The device must operate only from a battery - 5 V. Complete isolation from the mains power is required.! The device MUST not be connected to any kind of mains power, via USB or otherwise.   
 > Power supply - only battery 5V
