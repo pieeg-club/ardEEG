@@ -39,9 +39,8 @@ Electrodes are positioned according to the International 10-20 system    ​
 
 
 ## Device Pinout, where to use and how connect
-Shield connected with Arduino Uno R4 only at the next points:    
 
-Device Pinout
+Device Pinout (Shield connected with Arduino Uno R4 only at the next points and power)  
 <p align="center">
   <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/spi.png" width="50%" height="50%" alt="generals view">
 </p>
