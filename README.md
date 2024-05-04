@@ -94,5 +94,7 @@ In process
 
 
 #### Contacts  
-ildarr2016@gmail.com  
+ildarr2016@gmail.com    
 http://pieeg.com/
+[LinkedIn](https://www.linkedin.com/company/96475004/admin/feed/posts/)   
+[Youtube]([https://www.linkedin.com/company/96475004/admin/feed/posts/](https://www.youtube.com/channel/UCVF-3Bp34LINLOQsyWNpcow))   
