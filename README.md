@@ -2,8 +2,8 @@
 # ardEEG shield for Arduino UNO R4 to measure EEG, EMG, and ECG bio-signals.      
 
 ## To Buy - soon ardEEG will be available in the market at our partner shop [Elecrow](https://www.elecrow.com/pieeg.html)
-[LinkedIn for updates](https://www.linkedin.com/company/96475004/admin/feed/posts/) (Not a medical device)  
-  
+[LinkedIn for updates](https://www.linkedin.com/company/96475004/admin/feed/posts/) 
+
 #### It is not a medical device!!! And cannot be used for any medical purposes!!!
 
 This project is the result of several years of work on the development of BCI. We believe that the easiest way to get started with biosignals is to use a shield.
@@ -38,18 +38,18 @@ Electrodes are positioned according to the International 10-20 system    ​
 
 
 
-#### Device Pinout, where to use and how connect
+## Device Pinout, where to use and how connect
 Shield connected with Arduino Uno R4 only at the next points:    
 
-##### Device Pinout
+#### Device Pinout
 <p align="center">
   <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/spi.png" width="50%" height="50%" alt="generals view">
 </p>
-##### Where to use
+#### Where to use
 <p align="center">
   <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/genereal.jpg" width="50%" height="50%" alt="generals view">
 </p>
-##### How connect
+#### How connect
 <p align="center">
   <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/connections.bmp" width="50%" height="50%" alt="generals view">
 </p>
