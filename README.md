@@ -1,7 +1,7 @@
 # ardEEG 
 # ardEEG shield for Arduino UNO R4 to measure EEG, EMG, and ECG bio-signals.      
 
-## To Buy - soon ardEEG will be available in the market at our partner shop [Elecrow](https://www.elecrow.com/pieeg.html)
+## To Buy -  ardEEG will be available in the market at our partner shop [Elecrow](https://www.elecrow.com/pieeg.html)
 [LinkedIn for updates](https://www.linkedin.com/company/96475004/admin/feed/posts/) 
 
 
