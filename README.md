@@ -47,12 +47,12 @@ Device Pinout (Shield connected with Arduino Uno R4 only at the next points and 
 
 Where to use
 <p align="center">
-  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/genereal.jpg" width="50%" height="50%" alt="generals view">
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/genereal.jpg" width="80%" height="80%" alt="generals view">
 </p>
 
 How connect
 <p align="center">
-  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/connections.bmp" width="50%" height="50%" alt="generals view">
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/connections.bmp" width="80%" height="80%" alt="generals view">
 </p>
 
  
