@@ -52,7 +52,7 @@ Where to use
 
 How connect
 <p align="center">
-  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/connections.bmp" width="80%" height="80%" alt="generals view">
+  <img src= "https://github.com/Ildaron/ardEEG/blob/main/supplementary_files/connections1.bmp" width="80%" height="80%" alt="generals view">
 </p>
 
  
