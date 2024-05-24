@@ -1,4 +1,3 @@
-# ardEEG 
 # ardEEG shield for Arduino UNO R4 to measure EEG, EMG, and ECG bio-signals.      
 
 ## To Buy -   ardEEG is available in the market at our partner shop [Elecrow](https://pieeg.com/ardeeg/)
@@ -6,6 +5,10 @@
 
 ## Easy start
 Just only 2 script one for Arduino for Python in Windos(etc)  
+
+
+
+
 
 
 This project is the result of several years of work on the development of BCI. We believe that the easiest way to get started with biosignals is to use a shield.
