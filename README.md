@@ -4,7 +4,9 @@
 [LinkedIn for updates](https://www.linkedin.com/company/96475004/admin/feed/posts/) 
 
 ## Easy start
-Just only 2 script one for Arduino for Python in Windos(etc)  
+
+Just only 2 script one for [Arduino](https://github.com/Ildaron/ardEEG/blob/main/software/arduino/1.Version/1.Send_data_via_wifi.ino) and for Python [Python](https://github.com/Ildaron/ardEEG/blob/main/software/python/1.Alpha_real_time.py) in Windows (etc)  
+
 
 
 
