@@ -98,7 +98,7 @@ The process of recording an EEG signal from an electrode (Fz) with eyes open and
 
 
 #### Citation  
-In process 
+Rakhmatulin, I. Low-Cost Shield ardEEG to Measure EEG with Arduino Uno R4 WiFi. Preprints 2024, 2024051643. https://doi.org/10.20944/preprints202405.1643.v1  
 
 
 #### Contacts  
