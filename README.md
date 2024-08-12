@@ -8,12 +8,6 @@
 Just only 2 script one for [Arduino](https://github.com/Ildaron/ardEEG/blob/main/software/arduino/1.Send_data_via_wifi.ino) and for Python [Python](https://github.com/Ildaron/ardEEG/blob/main/software/python/1.Alpha_real_time.py) in Windows (etc) and full support from [PiEEG](https://pieeg.com/)))
 
 
-<p align="center">
-  <img src="https://github.com/pieeg-club/PiEEG-16/blob/main/images/pieeg.jpeg" width="50%" height="50%" alt="generals view">
-</p>
-
-
-
 
 This project is the result of several years of work on the development of BCI. We believe that the easiest way to get started with biosignals is to use a shield.
 We will try to reveal the process of reading EEG signals as fully and clearly as possible. 
