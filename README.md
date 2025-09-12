@@ -12,14 +12,6 @@ Just only 2 script one for [Arduino](https://github.com/Ildaron/ardEEG/blob/main
 This project is the result of several years of work on the development of BCI. We believe that the easiest way to get started with biosignals is to use a shield.
 We will try to reveal the process of reading EEG signals as fully and clearly as possible. 
 
-#### Warnings
->[!WARNING]
-> You are fully responsible for your personal decision to purchase this device and, ultimately, for its safe use. PiEEG is not a medical device and has not been certified by any government regulatory agency for use with the human body. Use it at your own risk.
-
->[!CAUTION]
-> The device must operate only from a battery - 5 V. Complete isolation from the mains power is required.! The device MUST not be connected to any kind of mains power, via USB or otherwise.     
-> Power supply - only battery 5V
-> It is not a medical device!!! And cannot be used for any medical purposes  
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=DIY%20Brain-Computer%20Interface%20PIEEG%20&url=https://github.com/Ildaron/EEGwithRaspberryPI&hashtags=RaspberryPI,EEG,python,opensource)
 
@@ -95,3 +87,13 @@ Rakhmatulin, I. Low-Cost Shield ardEEG to Measure EEG with Arduino Uno R4 WiFi. 
 http://pieeg.com/  
 [LinkedIn](https://www.linkedin.com/company/96475004/admin/feed/posts/)   
 [Youtube](https://www.youtube.com/channel/UCVF-3Bp34LINLOQsyWNpcow)
+
+
+#### Warnings
+>[!WARNING]
+> You are fully responsible for your personal decision to purchase this device and, ultimately, for its safe use. PiEEG is not a medical device and has not been certified by any government regulatory agency for use with the human body. Use it at your own risk.
+
+>[!CAUTION]
+> The device must operate only from a battery - 5 V. Complete isolation from the mains power is required.! The device MUST not be connected to any kind of mains power, via USB or otherwise.     
+> Power supply - only battery 5V
+> It is not a medical device!!! And cannot be used for any medical purposes  
