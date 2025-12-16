@@ -10,3 +10,6 @@ char pass[] = "password";
 Confirm that the Port is free in your laptop 
 
 C:\Users\your_PC> netstat -ano | findstr :13900
+
+
+UDP_IP check it in your Wi-Fi IP4, check it in properties in wi-fi laptop     
