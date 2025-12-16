@@ -7,3 +7,4 @@ char ssid[] = "Wifi Name";
 char pass[] = "password";  
 
 Python script located on the laptop. laptop conencted to the same Wi-Fi network as and Arduino  
+UDP_IP = "192.168.1.100" is the IP address assigned to your Arduino's WiFi interface.​   
