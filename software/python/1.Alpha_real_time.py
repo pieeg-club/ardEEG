@@ -15,7 +15,7 @@ data_check=0xFFFFFF
 result = data_lenght*[0]
 
 
-sample_lens = data_lenght/27 # 50
+sample_lens = int(data_lenght/27) # 50
 
 data_before_1 = [0]*sample_lens
 data_before_2 = [0]*sample_lens
