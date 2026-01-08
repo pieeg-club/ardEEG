@@ -5,7 +5,7 @@ from datetime import datetime
 import sys
 import time
 
-UDP_IP = "192.168.1.241"    # your wifi IP   
+UDP_IP = ""    # your wifi IP   
 UDP_PORT = 13900            # your free port 
 
 data_lenght = 1350  #   6,750
