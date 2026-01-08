@@ -8,7 +8,9 @@ import time
 UDP_IP = "192.168.1.241"    # your wifi IP   
 UDP_PORT = 13900            # your free port 
 
-data_lenght = 675 #1350
+data_lenght = 1350  #   6,750
+per_sec =  6750
+
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 print ("ok1")
 sock.bind((UDP_IP, UDP_PORT))
@@ -22,5 +24,6 @@ while True:
         
     if count_value == 25:
         print("--- %s seconds ---" % (time.time() - start_time))
+        await_receive = count_value*(data_lenght/per_sec)
+        print ("expected", await_receive)
         sys.exit()
-
