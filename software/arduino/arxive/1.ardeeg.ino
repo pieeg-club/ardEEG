@@ -5,34 +5,22 @@
 // =====================
 // PIN DEFINITIONS
 // =====================
-const int button_pin  = 7;
 const int chip_select = 10;
-const int DRDY_pin    = 5;  // CRITICAL: Must monitor this!
+const int DRDY_pin    = 7;  // Data Ready signal from ADS1299
 
 // =====================
 // DATA BUFFER
 // =====================
-const int size_of_data = 675;  // 27 bytes × 25 samples
+const int size_of_data = 1350;  //6750;  // 27 bytes × 25 samples
 byte output[size_of_data];
 int sc = 0;
 
 // =====================
 // WIFI SETTINGS
-
-
-
-
-char ssid[] = "BT-P7CPQC";
-char pass[] = "CRQuTXGfkf4g3a";
-
-
+// =====================
+char ssid[] = "";
+char pass[] = "";
 WiFiUDP udp;
-
-// =====================
-// BUTTON STATE
-// =====================
-int lastButtonState = HIGH;
-bool captureEnabled = false;
 
 // =====================
 // SPI HELPERS
@@ -62,14 +50,13 @@ void writeByte(byte reg, byte data)
 void setup()
 {
   // ---------- PINS ----------
-  pinMode(button_pin, INPUT_PULLUP);
   pinMode(chip_select, OUTPUT);
-  pinMode(DRDY_pin, INPUT);  // ADDED: Configure DRDY as input
+  pinMode(DRDY_pin, INPUT);
   digitalWrite(chip_select, HIGH);
 
   // ---------- SPI ----------
   SPI.begin();
-  SPI.beginTransaction(SPISettings(4000000, MSBFIRST, SPI_MODE1)); // Increased to 4MHz
+  SPI.beginTransaction(SPISettings(4000000, MSBFIRST, SPI_MODE1));
 
   sendCommand(0x02); // wakeup
   delay(1);
@@ -79,7 +66,7 @@ void setup()
   sendCommand(0x11); // sdatac
 
   // ---------- ADC CONFIG ----------
-  writeByte(0x01, 0x96);  // 250 SPS (0x96), verify this matches your desired rate
+  writeByte(0x01, 0x95);  // CHANGED: 250 SPS (was 0x96)
   writeByte(0x02, 0xD4);
   writeByte(0x03, 0xFF);
   writeByte(0x04, 0x00);
@@ -120,39 +107,24 @@ void setup()
 // =====================
 void loop()
 {
-  // ---------- BUTTON EDGE DETECTION ----------
-  int currentButtonState = digitalRead(button_pin);
-
-  if (lastButtonState == HIGH && currentButtonState == LOW)
+  // Wait for DRDY to go LOW (new data ready)
+  if (digitalRead(DRDY_pin) == LOW)
   {
-    captureEnabled = !captureEnabled;
-    sc = 0;
-  }
-
-  lastButtonState = currentButtonState;
-
-  // ---------- DATA CAPTURE ----------
-  if (captureEnabled)
-  {
-    // CRITICAL FIX: Wait for DRDY to go LOW (new data ready)
-    if (digitalRead(DRDY_pin) == LOW)
+    // Read one complete sample (27 bytes: 3 status + 8 channels × 3 bytes)
+    digitalWrite(chip_select, LOW);
+    for (int i = 0; i < 27; i++)
     {
-      // Read one complete sample (27 bytes: 3 status + 8 channels × 3 bytes)
-      digitalWrite(chip_select, LOW);
-      for (int i = 0; i < 27; i++)
-      {
-        output[sc++] = SPI.transfer(0xFF);
-      }
-      digitalWrite(chip_select, HIGH);
+      output[sc++] = SPI.transfer(0xFF);
+    }
+    digitalWrite(chip_select, HIGH);
 
-      // ---------- SEND UDP ----------
-      if (sc >= size_of_data)
-      {
-        udp.beginPacket("192.168.1.241", 13900);
-        udp.write(output, size_of_data);
-        udp.endPacket();
-        sc = 0;
-      }
+    // Send UDP packet when buffer is full
+    if (sc >= size_of_data)
+    {
+      udp.beginPacket("192.168.1.241", 13900);
+      udp.write(output, size_of_data);
+      udp.endPacket();
+      sc = 0;
     }
   }
 }
