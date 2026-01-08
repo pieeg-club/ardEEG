@@ -1,7 +1,7 @@
 import socket
 import time
 
-UDP_IP = "192.168.1.241"
+UDP_IP = ""
 UDP_PORT = 13900
 data_length = 675
 
